@@ -757,6 +757,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color-logo-dark);
 }
+.form {
+  padding: 40px 40px;
+}
 .form-field {
   position: relative;
 }
@@ -768,9 +771,7 @@ img {
   position: relative;
 }
 .form-input {
-  margin-top: 30px;
-  margin-left: 40px;
-  width: 448px;
+  width: 100%;
   height: 40px;
   justify-content: center;
   align-items: center;
