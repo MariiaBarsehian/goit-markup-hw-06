@@ -757,6 +757,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color-logo-dark);
 }
+.form-field {
+  position: relative;
+}
 .form-label {
   position: absolute;
   top: 40px;
@@ -834,7 +837,9 @@ img {
 }
 .send-btm {
   display: flex;
-  padding: 10px 32px;
+  padding: 10px 55px;
+  margin: 30px 164px;
+  bottom: 0px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
