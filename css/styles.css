@@ -762,6 +762,7 @@ img {
 }
 .form-field {
   position: relative;
+  margin-top: 10px;
 }
 .form-label {
   top: 20px;
@@ -775,6 +776,8 @@ img {
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: none;
+  padding-left: 40px;
 
   transition-property: border-color, fill;
   transition-duration: 250ms;
@@ -787,7 +790,9 @@ img {
   display: block;
   width: 18px;
   height: 18px;
-  left: 40px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   fill: var(--text-color-logo-);
   background-color: rgba(255, 255, 255, 0.1);
 
