@@ -761,10 +761,11 @@ img {
   position: relative;
 }
 .form-label {
-  position: absolute;
   top: 20px;
   left: 40px;
-  transform: translateY(-50%);
+}
+.field {
+  position: relative;
 }
 .form-input {
   margin-top: 30px;
@@ -783,7 +784,8 @@ img {
 }
 
 .modal-field-icon {
-  display: absolute;
+  position: absolute;
+  display: block;
   width: 18px;
   height: 18px;
   left: 40px;
