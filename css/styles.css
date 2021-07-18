@@ -938,6 +938,26 @@ img {
 .form-input:focus + .modal-field-icon {
   fill: var(--background-color-blue);
 }
+.licens-checkbox-container {
+}
+.licens-check-box-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+}
+.licens {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color-hover);
+}
 .send-btm {
   display: flex;
   padding: 10px 55px;

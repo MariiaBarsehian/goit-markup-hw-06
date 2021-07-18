@@ -449,7 +449,7 @@
                     <div class="form-field">
                         <label for="phone" class="form-label">Телефон</label>
                         <div class="phone-field field">
-                        <input type="tel" class="form-input" name="tel" id="tel" required>
+                        <input type="tel" class="form-input" name="tel" id="tel">
                         <svg class="modal-field-icon" width="18" height="18">
                             <use href="./images/modal-icon.svg#phone">
                             </use>
@@ -471,21 +471,12 @@
                         <textarea class="comment modal-form-textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
                     </div>
                     
-                    <div>
-                        <ul>
-                            <li>
-                                <svg class="modal-field-icon" width="18" height="18">
-                                    <use href="./images/modal-icon.svg#mail">
-                                    </use>
-                                </svg>
-                            </li>
-                            <li>
-                                <p>Соглашаюсь с рассылкой и принимаю</p>
-                            </li>
-                            <li>
-                                <a href="#">Условия договора</a>
-                            </li>
-                        </ul>
+                    <div class="licens-checkbox-container">
+                        <label class="licens-check-box-label">
+                            <input class="licens-checkbox" value=" " name="licens-agreement" type="checkbox">
+                        Соглашаюсь с рассылкой и принимаю
+                        </label>
+                        <a class="licens" href="#">Условия договора</a>
                     </div>
                     <button class="send-btm" type="submit">Отправить</button>
                 </form>
