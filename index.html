@@ -408,14 +408,19 @@
             </div>
             <div class="subscribe-container">
             <p class="subscribe-title">Подпишитесь на рассылку</p>
-            <form action="#" method="POST">
-                <label for="subscribe-text" class="subscribe-text">E-mail</label>
-                <input type="text" class="subscribe-field-text" name="subscribe-field-text" id="subscribe-field-text" required>
-                <button class="subscribe-btm" type="subscribe">Подписаться</button>
-                     <svg class="subscribe-icon" width="24" height="24">
-                        <use href="./images/modal-icon.svg#subscribe">
-                        </use>
-                    </svg>
+            <form class="subscribe-form" action="#" method="POST">
+                <input type="text" class="subscribe-field-text" placeholder="E-mail" name="subscribe-field-text" id="subscribe-field-text" required>
+                <button class="subscribe-btm" type="submit">
+                     <div class="subscribe-btm-text-container">
+                        <span class="subscribe-btm-text">Подписаться</span>
+                        <span class="subscribe-btm-icon">
+                            <svg class="subscribe-icon" width="24" height="24">
+                                <use href="./images/modal-icon.svg#subscribe">
+                                </use>
+                            </svg>
+                        </span>
+                     </div> 
+                </button>
             </form>
             </div>
         </div>
@@ -463,7 +468,7 @@
                     </div>
                     <div class="form-field">
                         <label for="comment" class="form-label">Комментарий</label>
-                        <textarea class="comment" name="comment" id="comment" placeholder=" " >Введите текст</textarea>
+                        <textarea class="comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
                     </div>
                     
                     <button class="send-btm" type="submit">Отправить</button>
