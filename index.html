@@ -408,12 +408,15 @@
             </div>
             <div class="subscribe-container">
             <p class="subscribe-title">Подпишитесь на рассылку</p>
-            <textarea class="subscribe-field-text" name="subscribe-field" id="subscribe-field" placeholder=" ">E-mail</textarea>
-                    <button class="subscribe-btm" type="subscribe">Подписаться</button>
+            <form action="#" method="POST">
+                <label for="subscribe-text" class="subscribe-text">E-mail</label>
+                <input type="text" class="subscribe-field-text" name="subscribe-field-text" id="subscribe-field-text" required>
+                <button class="subscribe-btm" type="subscribe">Подписаться</button>
                      <svg class="subscribe-icon" width="24" height="24">
                         <use href="./images/modal-icon.svg#subscribe">
                         </use>
                     </svg>
+            </form>
             </div>
         </div>
     </footer>
