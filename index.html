@@ -409,7 +409,7 @@
             <div class="subscribe-container">
             <p class="subscribe-title">Подпишитесь на рассылку</p>
             <form class="subscribe-form" action="#" method="POST">
-                <input type="text" class="subscribe-field-text" placeholder="E-mail" name="subscribe-field-text" id="subscribe-field-text" required>
+                <input type="email" class="subscribe-field-text" placeholder="E-mail" name="email" id="email" required>
                 <button class="subscribe-btm" type="submit">
                      <div class="subscribe-btm-text-container">
                         <span class="subscribe-btm-text">Подписаться</span>
@@ -439,7 +439,7 @@
                     <div class="form-field">
                         <label for="name" class="form-label">Имя</label>
                         <div class="name-field field">
-                        <input type="text" class="form-input" name="name" id="name" required>
+                        <input type="text" class="form-input" name="name" id="name" required minlength="2">
                         <svg class="modal-field-icon" width="18" height="18">
                         <use href="./images/modal-icon.svg#person">
                         </use>
@@ -449,7 +449,7 @@
                     <div class="form-field">
                         <label for="phone" class="form-label">Телефон</label>
                         <div class="phone-field field">
-                        <input type="text" class="form-input" name="phone" id="phone" required>
+                        <input type="tel" class="form-input" name="tel" id="tel" required>
                         <svg class="modal-field-icon" width="18" height="18">
                             <use href="./images/modal-icon.svg#phone">
                             </use>
@@ -459,7 +459,7 @@
                     <div class="form-field">
                         <label for="mail" class="form-label">Почта</label>
                         <div class="mail-field field">
-                        <input type="text" class="form-input" name="mail" id="mail" required>
+                        <input type="email" class="form-input" name="email" id="email" required >
                         <svg class="modal-field-icon" width="18" height="18">
                             <use href="./images/modal-icon.svg#mail">
                             </use>
@@ -468,9 +468,25 @@
                     </div>
                     <div class="form-field">
                         <label for="comment" class="form-label">Комментарий</label>
-                        <textarea class="comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                        <textarea class="comment modal-form-textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
                     </div>
                     
+                    <div>
+                        <ul>
+                            <li>
+                                <svg class="modal-field-icon" width="18" height="18">
+                                    <use href="./images/modal-icon.svg#mail">
+                                    </use>
+                                </svg>
+                            </li>
+                            <li>
+                                <p>Соглашаюсь с рассылкой и принимаю</p>
+                            </li>
+                            <li>
+                                <a href="#">Условия договора</a>
+                            </li>
+                        </ul>
+                    </div>
                     <button class="send-btm" type="submit">Отправить</button>
                 </form>
             </div>

@@ -922,6 +922,9 @@ img {
   resize: none;
   outline: none;
 }
+.modal-form-textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
 .form-input:focus {
   border: 1px solid rgba(33, 150, 243, 1);
 }
