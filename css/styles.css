@@ -791,7 +791,6 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 581px;
   width: 528px;
   background: #ffffff;
   transform: translate(-50%, -50%);
@@ -811,6 +810,11 @@ img {
   cursor: pointer;
   padding: 0px;
 }
+.close-btm:hover,
+.close-btm:focus {
+  fill: var(--text-color-hover);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -942,7 +946,7 @@ img {
   padding-left: 15px;
   margin-bottom: 30px;
 }
-.licens-check-box-label {
+.licens-checkbox-label {
   display: flex;
   font-family: Roboto;
   font-style: normal;
@@ -966,6 +970,7 @@ img {
   height: 15px;
   border: 2px solid var(--text-color-logo-dark);
   border-radius: 2px;
+  margin-right: 10px;
 }
 .checkbox-unchecked::before {
   content: "";
