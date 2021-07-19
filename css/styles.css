@@ -943,7 +943,7 @@ img {
   margin-bottom: 30px;
 }
 .licens-check-box-label {
-  display: inline-block;
+  display: flex;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -951,6 +951,7 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
+  align-items: center;
 }
 .licens-checkbox {
   -webkit-appearance: none;
@@ -970,6 +971,13 @@ img {
   margin-right: 7px;
 }
 .licens-checkbox:checked + .checkbox-unchecked {
+  background-color: var(--text-color-hover);
+  background-image: url(../images/modal-icon.svg#rectangle-focus);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  border: none;
 }
 
 .licens {
