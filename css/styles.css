@@ -939,8 +939,11 @@ img {
   fill: var(--background-color-blue);
 }
 .licens-checkbox-container {
+  padding-left: 15px;
+  margin-bottom: 30px;
 }
 .licens-check-box-label {
+  display: inline-block;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -949,7 +952,18 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
 }
+.licens-checkbox {
+  /*-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;*/
+
+  position: absolute;
+}
+.licens-checkbox:checked + .checkbox-checked {
+}
+
 .licens {
+  display: inline-block;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
