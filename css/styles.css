@@ -953,13 +953,23 @@ img {
   color: var(--text-color-grey);
 }
 .licens-checkbox {
-  /*-webkit-appearance: none;
+  -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;*/
+  appearance: none;
 
   position: absolute;
 }
-.licens-checkbox:checked + .checkbox-checked {
+.checkbox-unchecked::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--text-color-logo-dark);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 7px;
+}
+.licens-checkbox:checked + .checkbox-unchecked {
 }
 
 .licens {
