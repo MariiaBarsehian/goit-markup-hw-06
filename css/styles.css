@@ -960,19 +960,23 @@ img {
 
   position: absolute;
 }
-.checkbox-unchecked::before {
-  content: "";
+.checkbox-unchecked {
   display: inline-block;
   width: 16px;
   height: 15px;
   border: 2px solid var(--text-color-logo-dark);
   border-radius: 2px;
+}
+.checkbox-unchecked::before {
+  content: "";
+  display: block;
   cursor: pointer;
   margin-right: 7px;
 }
 .licens-checkbox:checked + .checkbox-unchecked {
+  display: block;
   background-color: var(--text-color-hover);
-  background-image: url(../images/modal-icon.svg#rectangle-focus);
+  background-image: url(../images/rectangle-focus.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
