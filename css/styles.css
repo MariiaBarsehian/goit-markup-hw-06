@@ -644,8 +644,8 @@ img {
 }
 
 .subscribe-btm {
-  position: relative;
   display: flex;
+  align-items: center;
   margin-left: 12px;
   padding: 10px 55px 10px 30px;
 
@@ -671,10 +671,10 @@ img {
   background-color: var(--text-color-hover);
 }
 .subscribe-icon {
-  position: absolute;
   display: block;
   right: 15px;
   bottom: 15px;
+  margin-left: 10px;
   fill: var(--text-color-white);
 }
 
@@ -868,8 +868,6 @@ img {
 .modal-field-icon {
   position: absolute;
   display: block;
-  width: 18px;
-  height: 18px;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
